@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+  <link href="style.css" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pirtis</title>
+  <script src="https://kit.fontawesome.com/066f3cdf1b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+  <div class="container">
+    <nav>
+        <img src="" />
+      <ul style="position: fixed;" id="sidemenu">
+        <li class="font-effect-fire"><a href="#header">Pagrindinis</a></li>
+        <li class="font-effect-fire"><a href="#about">Apie</a></li>
+        <li class="font-effect-fire"><a href="#services">Paslaugos</a></li>
+        <li class="font-effect-fire"><a href="#portfolio">Veikla/Galerija</a></li>
+        <li class="font-effect-fire"><a href="#kainorastis">Kainoraštis</a></li>
+        <li class="font-effect-fire"><a href="#contact">Kontaktai</a></li>
+        <i class="fas fa-times" onclick="closemenu()"></i>
+      </ul>
+      <i class="fas fa-bars" onclick="openmenu()"></i>
+      
+    </nav>
+    <div class="header-text">
+      <p class="spalva"> Išsiilgusiems gamtos ir ne tik </p>
+      <h1>Sveiki gyvi, tai<br><span class="font-effect-fire"> Karšto Garo</span><br> pirtelė </h1>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<!------------about--------->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="galerija/1.png">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title font-effect-fire">Apie mus</h1>
+        <p style="color: 17, 1, 1;">Mūsų karštas garas pirtyje dar nepaliko nei vieno abejingo. Pas mus sugrįžta klientai, net
+            po kelių metų pertraukos, liaupsindami šį rojaus stebuklą, kad geriau tikrai neras.
+        </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Aplinka</p>
+            <p class="tab-links" onclick="opentab('experience')">Veikla</p>
+            <p class="tab-links" onclick="opentab('education')">Patirtis</p>
+          </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Skaidrusis ežeras</span><br>Nuostabus krantas, dėl daugybės šaltinių švarus ir skaidrus vanduo</li>
+            <li><span>Neries parko miškas</span><br>nepaliesta gamta, bus tikra atgaiva jūsų kūnui ir sielai</li>
+            <li><span>Teritorija</span><br>Saugi, jauki aplinka ir neretai užklystančios stirnaitės ežero vandeniu numalšinti
+            troškulį paliks tik pozityvius įspūdžius ir savijautą </li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>1945m</span><br>Pastatyta pirtelė yra pilna teigiamų paslapčių, dėl kurių norėsis grįžti ne kartą</li>
+            <li><span>2000 - iki dabar</span><br>Šimtai patenkintų klientų sugrižtančių vėl ir vėl</li>
+            <li><span>kaina ir kokybė</span><br> mes tikime, kad surastas aukso viduriukas ženkliai pagerina visų nuotaiką </li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>Apsilankius</span><br>Pirtis iškurianama prieš Jums atvykstant viskas paruošta patirti <span class="font-effect-fire"> Karštą Garą</span></li>
+            <li><span>Pasiūlimai</span><br>Be pirties siūlome asimeėgauti ir kitomis Mūsų teikiamomis paslaugomis</li>
+            <li><span>Skambinkite</span><br>Bet, kuriuo metu, jei tik ko prireiks</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!---------services-->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title font-effect-fire">Mūsų Paslaugos</h1>
+    <div class="services-list">
+      <div class="spalva">
+        <i class="fa-solid fa-house-chimney a1"></i>
+        <h2>Pirtelė</h2>
+        <p>Talpinanti iki 10 žmonių ir 20 miegamų vietų</p>
+        
+        </div>
+        <div class="spalva2">
+            <i class="fa-solid fa-tree a2"></i>
+                      <h2>Miškas</h2>
+        <p>Siūlome nuostabią gamtą, neaprėpiamus plotus pilnus miško gėrybių </p>
+        
+      </div>
+      <div class="spalva3">
+        <i class="fa-solid fa-water a3"></i>
+                <h2>Ežeras</h2>
+        <p>Skaidrus ir nusotabaus grožio ežeras, gali pasiiūlyti linksmas vandens pramogas, bei tikrus laimikius žvejams</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-------portfolio--------------->
+
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title font-effect-fire">Ką mes veikiame </h1>
+    <div class="work-list">
+      <div class="work foto work-foto">
+        <img  class="fot"  src="galerija/8.png" alt="image">
+        <div class="layer">
+          <h3>Aplinka</h3>
+           <p>Rūpinamės žmonių ir turto saugumu, puoselėjame tvarkingą ir malonią aplinką
+           </p> 
+           <button  onclick="windowOpen()"><i class="fa-solid fa-up-right-from-square"></i></button>
+         
+        </div>
+      </div>
+      <div class="work foto  work-foto">
+        <img class="fot" src="galerija/10.png" alt="image">
+        <div class="layer">
+          <h3>Pagalba</h3>
+           <p>Atvykstame, bet kuriuo metu iškilus butinybei
+           </p> 
+           <button onclick="windowOpenn()"><i class="fa-solid fa-up-right-from-square"></i></button>
+        </div>
+      </div>
+      <div class="work foto  work-foto">
+        <img class="fot"  src="galerija/9.png" alt="image">
+        <div class="layer">
+          <h3>Tvarka</h3>
+           <p>Pasirūpiname, kad jūsų poilsis būtų išskirtinės kokybės
+           </p> 
+           <button  onclick="windowOpennn()"><i class="fa-solid fa-up-right-from-square"></i></button>
+           
+        </div>
+      </div>
+    </div>
+      <a href="galerija.html" class="btn">daugiau</a>
+
+  </div>
+</div>
+
+    <!-----------kainorastis--------->
+    <div id="kainorastis">
+        <div class="container">
+          <div class="row">
+            <h1 class="sub-title font-effect-fire">Kainoraštis</h1><br>
+            <table>
+              <tr>
+                <th class="font-effect-fire sa">Paslauga</th>
+                <th class="font-effect-fire sa">Trukmė</th>
+                <th class="font-effect-fire sa">Kaina</th>
+              </tr>
+              <tr>
+                <td>Pirtis </td>
+                <td>24h</td>
+                <td>100€</td>
+              </tr>
+              <tr>
+                <td>Pirtis</td>
+                <td>48h</td>
+                <td>150€</td>
+              </tr>
+              <tr>
+                <td>Pirtis</td>
+                <td>Penktadienį, šeštaienį 24h, arba 48h</td>
+                <td>150€ arba 220€</td>
+              </tr>
+              <tr>
+                <td>Keturatis</td>
+                <td>3h</td>
+                <td>50€</td>
+              </tr>
+              <tr>
+                <td>Motorinė valtis</td>
+                <td>3h</td>
+                <td>20€</td>
+              </tr>
+              <tr>
+                <td>Kubilas</td>
+                <td>24h</td>
+                <td>50€</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+       
+      </div>
+<!--------contact--------->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title font-effect-fire">Susisiekime </h1>
+        <p  class="font-effect-fire sa"><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+        <p  class="font-effect-fire sa"><i class="fa-solid fa-square-phone"></i>+370 6 99 00000</p>
+        <div class="social-icons">
+          <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+   </div>
+      </div>
+      
+      <span id="msg"></span>
+    </div>
+  </div>
+  <div class="copyright">
+    <p style="color: white; font-family: sans-serif;">Copy © Aurimas. Atsakingas <i class="fa-solid fa-heart"></i> puslapių kūrimas<br><a href="https://darbai123.github.io/myHomePage/index.html#work" class="darbai123">www.darbai123.lt</a></p>  </div>
+</div>
+
+<script src="pirtis.js"></script>  
+
+</body>
+</html>
